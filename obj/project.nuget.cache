@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "qOMEgzHILiaNRR7b4dJJFqKIXRbADHdT0+TRSHoHe+tJf+0NtYY6aiM8V4aUQ7FDyhjEtVnTa3anS53f7tG04A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\YouCanBan.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mragl\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512"
+  ],
+  "logs": []
+}
