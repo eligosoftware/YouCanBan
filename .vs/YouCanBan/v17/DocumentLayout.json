@@ -1,0 +1,246 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|c:\\users\\mragl\\source\\repos\\youcanban\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|c:\\users\\mragl\\source\\repos\\youcanban\\forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:forms\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|c:\\users\\mragl\\source\\repos\\youcanban\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|c:\\users\\mragl\\source\\repos\\youcanban\\forms\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:forms\\frmsplashscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|c:\\users\\mragl\\source\\repos\\youcanban\\forms\\frmstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:forms\\frmstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|C:\\Users\\mragl\\source\\repos\\YouCanBan\\forms\\frmstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:forms\\frmstart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|C:\\Users\\mragl\\source\\repos\\YouCanBan\\forms\\frmnewconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:forms\\frmnewconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|C:\\Users\\mragl\\source\\repos\\YouCanBan\\classes\\connectionsreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:classes\\connectionsreader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|c:\\users\\mragl\\source\\repos\\youcanban\\forms\\frmmanageconnections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:forms\\frmmanageconnections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|c:\\users\\mragl\\source\\repos\\youcanban\\forms\\frmmanageconnections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:forms\\frmmanageconnections.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|C:\\Users\\mragl\\source\\repos\\YouCanBan\\forms\\frmnewconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:forms\\frmnewconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|C:\\Users\\mragl\\source\\repos\\YouCanBan\\classes\\db\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A929E38F-71E8-46E2-9624-E160ABBD5579}|YouCanBan.csproj|solutionrelative:classes\\db\\connection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmMain.cs",
+              "RelativeDocumentMoniker": "Forms\\frmMain.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmMain.cs",
+              "RelativeToolTip": "Forms\\frmMain.cs",
+              "ViewState": "AQIAAGwBAAAAAAAAAAAqwHkBAABWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:11:40.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConnectionsReader.cs",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\classes\\ConnectionsReader.cs",
+              "RelativeDocumentMoniker": "classes\\ConnectionsReader.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\classes\\ConnectionsReader.cs",
+              "RelativeToolTip": "classes\\ConnectionsReader.cs",
+              "ViewState": "AQIAADIAAAAAAAAAAAAAwA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:38:14.188Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmStart.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmStart.cs",
+              "RelativeDocumentMoniker": "Forms\\frmStart.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmStart.cs [Entwurf]",
+              "RelativeToolTip": "Forms\\frmStart.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:56:22.19Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmStart.cs",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmStart.cs",
+              "RelativeDocumentMoniker": "Forms\\frmStart.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmStart.cs",
+              "RelativeToolTip": "Forms\\frmStart.cs",
+              "ViewState": "AQIAAHEAAAAAAAAAAAAAAH4AAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:43:59.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmSplashScreen.cs",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmSplashScreen.cs",
+              "RelativeDocumentMoniker": "Forms\\frmSplashScreen.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmSplashScreen.cs",
+              "RelativeToolTip": "Forms\\frmSplashScreen.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAIwFUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:59:11.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmMain.cs",
+              "RelativeDocumentMoniker": "Forms\\frmMain.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmMain.cs [Entwurf]",
+              "RelativeToolTip": "Forms\\frmMain.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T10:21:21.769Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAADwv0IAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:58:43.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmManageConnections.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmManageConnections.cs",
+              "RelativeDocumentMoniker": "Forms\\frmManageConnections.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmManageConnections.cs [Entwurf]",
+              "RelativeToolTip": "Forms\\frmManageConnections.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:49:02.908Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmNewConnection.cs",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmNewConnection.cs",
+              "RelativeDocumentMoniker": "Forms\\frmNewConnection.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmNewConnection.cs",
+              "RelativeToolTip": "Forms\\frmNewConnection.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAwDQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-11T20:54:51.841Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmManageConnections.cs",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmManageConnections.cs",
+              "RelativeDocumentMoniker": "Forms\\frmManageConnections.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmManageConnections.cs",
+              "RelativeToolTip": "Forms\\frmManageConnections.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAwwDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-14T08:49:04.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmNewConnection.cs [Entwurf]",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmNewConnection.cs",
+              "RelativeDocumentMoniker": "Forms\\frmNewConnection.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\Forms\\frmNewConnection.cs [Entwurf]",
+              "RelativeToolTip": "Forms\\frmNewConnection.cs [Entwurf]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-12T16:59:07.425Z",
+              "EditorCaption": " [Entwurf]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Connection.cs",
+              "DocumentMoniker": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\classes\\db\\Connection.cs",
+              "RelativeDocumentMoniker": "classes\\db\\Connection.cs",
+              "ToolTip": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\classes\\db\\Connection.cs",
+              "RelativeToolTip": "classes\\db\\Connection.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAvwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T14:33:40.011Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1144,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
