@@ -140,6 +140,7 @@ namespace YouCanBan
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();
+            Application.Exit();
         }
     }
 }

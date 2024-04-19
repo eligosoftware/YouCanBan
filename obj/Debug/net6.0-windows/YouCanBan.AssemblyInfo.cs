@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("YouCanBan")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+21a479013f70ff39c65b1cc05f17b45160598aef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("YouCanBan")]
 [assembly: System.Reflection.AssemblyTitleAttribute("YouCanBan")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

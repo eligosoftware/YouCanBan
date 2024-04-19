@@ -24,7 +24,7 @@ namespace YouCanBan
         {
             InitializeComponent();
 
-            lblVersion.Text = "Version 1.0.0";
+            lblVersion.Text = "Version 1.0.1";
 
 
             this.BackgroundImage = Properties.Resources.youcanban_logo2;

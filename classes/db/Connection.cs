@@ -65,7 +65,7 @@ namespace YouCanBan.classes.db
 
 
             string query = @"
-            use youcanban_db;
+            use "+ _connection.database+ @";
             
             select * from youCanBan_data;
             ";
