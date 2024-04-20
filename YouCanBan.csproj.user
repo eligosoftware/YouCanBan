@@ -1,6 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Forms\frmBackupDatabase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\frmEnterBakEncryptionPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\frmMain.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -8,6 +14,9 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\frmNewConnection.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Forms\frmRestoreDatabase.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Forms\frmStart.cs">
