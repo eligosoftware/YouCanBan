@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlClient;
+using System.Windows.Forms;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using YouCanBan.classes;
+using Timer = System.Windows.Forms.Timer;
 
 namespace YouCanBan.Forms
 {
@@ -20,16 +22,34 @@ namespace YouCanBan.Forms
         public bool readyFillBlock = false;
 
         private int idIsArchived = -1;
+
+        private Timer timer;
+
         public frmMain()
         {
             InitializeComponent();
+
+            // Initialize and configure the Timer
+            timer = new Timer();
+            timer.Interval = 1000; // 5 seconds in milliseconds
+            timer.Tick += Timer_Tick;
+
+            // Start the Timer
+            timer.Start();
         }
 
         private void frmMain_FormClosed(object sender, FormClosedEventArgs e)
         {
             Application.Exit();
         }
-
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            // Method to execute every 5 seconds
+            if (lblIdValue.Text != "")
+            {
+                SaveTaskInformation();
+            }
+        }
         private void manageConnectionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // open frmManageConnections form
@@ -381,6 +401,9 @@ namespace YouCanBan.Forms
                 dt = new DataTable();
                 da.Fill(dt);
                 //     MessageBox.Show("Database created successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                lblSavedState.Text = "Saved";
+                lblSavedState.ForeColor = Color.Green;
             }
             catch (Exception ex)
             {
@@ -417,6 +440,23 @@ namespace YouCanBan.Forms
             }
 
             lblArchived.Visible = idIsArchived == 1;
+        }
+
+        private void frmMain_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmMain_FormClosed_1(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void txtNotes_TextChanged(object sender, EventArgs e)
+        {
+            lblSavedState.Text = "Unsaved";
+            lblSavedState.ForeColor = Color.Red;
+
         }
     }
 }

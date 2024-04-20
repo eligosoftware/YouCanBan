@@ -12,8 +12,10 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\mragl\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\mragl\\.nuget\\packages"
+      "C:\\Users\\RasulovI\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\RasulovI\\.nuget\\packages",
+      "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+      "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,

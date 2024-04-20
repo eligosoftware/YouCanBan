@@ -26,7 +26,7 @@ namespace YouCanBan.Forms
         
 
         // write a method to create a database using the form data
-        private void CreateDatabase()
+        private string CreateDatabase()
         {
             //string connectionString = "Data Source=" + txtServer.Text + ";Initial Catalog=master;Integrated Security=True";
             //string connectionString = $"Data Source={txtServer.Text.Trim()},{txtPort.Text.Trim()};Initial Catalog=master;User ID={txtUsername.Text.Trim()};Password={txtPassword.Text.Trim()};";    
@@ -35,10 +35,12 @@ namespace YouCanBan.Forms
             SqlConnection connection = new SqlConnection(connectionString);
             string query = "CREATE DATABASE " + txtDatabase.Text;
             SqlCommand command = new SqlCommand(query, connection);
+            string db_name;
             try
             {
                 connection.Open();
                 command.ExecuteNonQuery();
+                db_name = txtDatabase.Text;
            //     MessageBox.Show("Database created successfully", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             catch (Exception ex)
@@ -46,11 +48,13 @@ namespace YouCanBan.Forms
                 newConnection = null;
 
                 MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                db_name = null;
             }
             finally
             {
                 connection.Close();
             }
+            return db_name;
         }
 
         static string ReadEmbeddedResourceText(string resourceName)
@@ -76,7 +80,7 @@ namespace YouCanBan.Forms
             return result;
         }
 
-        private void CreateTables()
+        private void CreateTables(string db_name)
         {
             string connectionString = $"Data Source={txtServer.Text.Trim()};Initial Catalog={txtDatabase.Text.Trim()};User ID={txtUsername.Text.Trim()};Password={txtPassword.Text.Trim()};";
            // string connectionString = $"Data Source={txtServer.Text.Trim()},{txtPort.Text.Trim()};Initial Catalog={txtDatabase.Text.Trim()};User ID={txtUsername.Text.Trim()};Password={txtPassword.Text.Trim()};";
@@ -91,8 +95,8 @@ namespace YouCanBan.Forms
 
 
             string query = @"
-            use youcanban_db;
-            -- Create Category table
+            use "+db_name+
+            @"-- Create Category table
             -- CREATE TABLE Category (
             --     id INT PRIMARY KEY IDENTITY(1,1),
             --     name NVARCHAR(255) NOT NULL,
@@ -210,8 +214,11 @@ namespace YouCanBan.Forms
         {
             if (isANewDatabase)
             {
-                CreateDatabase();
-                CreateTables();
+                string db_name =CreateDatabase();
+                if (db_name != null) {
+                    CreateTables(db_name);
+                }
+                
             }
             else { 
             TestDBExists();

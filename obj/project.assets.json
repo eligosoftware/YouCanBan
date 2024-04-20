@@ -519,19 +519,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mragl\\.nuget\\packages\\": {}
+    "C:\\Users\\RasulovI\\.nuget\\packages\\": {},
+    "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\YouCanBan.csproj",
+      "projectUniqueName": "C:\\Users\\RasulovI\\Documents\\YouCanBan\\YouCanBan.csproj",
       "projectName": "YouCanBan",
-      "projectPath": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\YouCanBan.csproj",
-      "packagesPath": "C:\\Users\\mragl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mragl\\source\\repos\\YouCanBan\\obj\\",
+      "projectPath": "C:\\Users\\RasulovI\\Documents\\YouCanBan\\YouCanBan.csproj",
+      "packagesPath": "C:\\Users\\RasulovI\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\RasulovI\\Documents\\YouCanBan\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages",
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\mragl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\RasulovI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -539,6 +547,8 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -551,11 +561,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -590,7 +595,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
       }
     }
   }
